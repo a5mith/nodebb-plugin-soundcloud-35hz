@@ -1,0 +1,13 @@
+{
+	"id": "nodebb-plugin-soundcloud-35hz",
+	"name": "NodeBB SoundCloud Plugin",
+	"description": "NodeBB Plugin that allows users to embed SoundCloud tracks inline in their posts.",
+	"url": "https://github.com/a5mith/nodebb-plugin-soundcloud-35hz",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true }
+	],
+	"staticDirs": {
+        "css": "./static"
+    }
+}
