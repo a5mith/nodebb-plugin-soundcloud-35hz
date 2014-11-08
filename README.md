@@ -8,3 +8,10 @@ And changing the default colouring.
 ## Installation
 
     npm install nodebb-plugin-soundcloud-35hz
+
+## Changes
+
+0.0.3
+ - Use this version for ^0.6.0
+0.0.2
+ - Use this version for ^0.5.0
