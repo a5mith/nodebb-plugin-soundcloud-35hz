@@ -5,7 +5,8 @@
 	"url": "https://github.com/a5mith/nodebb-plugin-soundcloud-35hz",
 	"library": "./library.js",
 	"hooks": [
-		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
+		{ "hook": "filter:parse.post", "method": "parsePost", "priority": 4 },
+		{ "hook": "filter:parse.post", "method": "parsePost", "priority": 6 },
 	],
 	"staticDirs": {
         "css": "./static"
