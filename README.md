@@ -11,7 +11,11 @@ And changing the default colouring.
 
 ## Changes
 
+0.1.0
+ - Support for no_follow.
+
 0.0.3
  - Use this version for ^0.6.0
+ 
 0.0.2
- - Use this version for ^0.5.0
+ - Use this version for ^0.5.0 - Why are you still using this version? 
