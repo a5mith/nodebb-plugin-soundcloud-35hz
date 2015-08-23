@@ -8,6 +8,7 @@
 
 
     Soundcloud.parse = function(data, callback) {
+        callback(null, data);
 
         if (!data || !data.postData || !data.postData.content) {
             return callback(null, data);
@@ -18,8 +19,6 @@
         if (data.postData.content.match(embedset)) {
             data.postData.content = data.postData.content.replace(embedset, embeds);
         }
-
-        callback(null, data);
     };
 
     module.exports = Soundcloud;
